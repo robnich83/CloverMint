@@ -1,1 +1,0 @@
-// ERC-1155 Ticket contract placeholder

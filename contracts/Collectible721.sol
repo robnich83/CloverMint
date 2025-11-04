@@ -1,1 +1,0 @@
-// ERC-721 Collectible contract placeholder
