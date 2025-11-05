@@ -29,3 +29,50 @@ This solves two major issues in the live events industry:
 
 ## 🧠 Smart Contract Logic
 
+Contract: EventTicketManager
+
+mintTicketSFT(eventId, seatType, price, buyer)
+-> Mints SFT (ERC-1155)
+-> Restricts resale price
+
+validateTicket(eventId, tokenId)
+-> Marks ticket as used (on-chain)
+
+convertToNFT(eventId)
+-> Converts used SFTs into unique ERC-721 NFTs
+-> Adds collectible metadata + rewards
+
+
+---
+
+## ⚙️ Tech Stack
+
+| Layer | Tools |
+|-------|-------|
+| Blockchain | Ethereum / Polygon / Base |
+| Smart Contracts | Solidity (ERC-1155 + ERC-721) |
+| Frontend | React + Ethers.js |
+| Storage | IPFS / Pinata |
+| Wallet | MetaMask / Coinbase Wallet |
+
+---
+
+## 💰 Benefits
+- Eliminates ticket scalping
+- Enhances fan engagement via collectibles
+- Opens new monetization for artists & organizers
+- Establishes transparent resale markets
+
+---
+
+## 🧩 Future Add-ons
+- Loyalty tiers based on owned NFTs  
+- Token-gated early access for superfans  
+- NFT-based voting for event experiences  
+
+---
+
+## 📄 License
+MIT License
+
+
