@@ -49,7 +49,7 @@ convertToNFT(eventId)
 
 | Layer | Tools |
 |-------|-------|
-| Blockchain | Ethereum / Polygon / Base |
+| Blockchain | BlockDag |
 | Smart Contracts | Solidity (ERC-1155 + ERC-721) |
 | Frontend | React + Ethers.js |
 | Storage | IPFS / Pinata |
